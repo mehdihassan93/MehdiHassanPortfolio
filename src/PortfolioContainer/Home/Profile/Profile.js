@@ -15,7 +15,7 @@ export default function Profile() {
               <a href="#">
                 <i className="fa fa-google-plus-square" />
               </a>
-              <a href="https://www.instagram.com/">
+              <a href="https://www.instagram.com/cosmicleader/">
                 <i className="fa fa-instagram" />
               </a>
               <a href="https://www.youtube.com">

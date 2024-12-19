@@ -124,7 +124,7 @@ const Resume = (props) => {
         />
         <div className="experience-description">
           <span className="resume-description-text">
-            Currently working as a fullstack developer at eguidance labs LLP. also taking tutions for engineering students.
+            Currently working as a fullstack developer at AIDEON Limited. also taking tutions for engineering students.
           </span>
         </div>
         <div className="experience-description">
