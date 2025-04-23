@@ -1,0 +1,15 @@
+
+/* // File: src/components/Common/ScrollToTopButton/ScrollToTopButton.css */
+.scroll-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #ff5823;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+  font-size: 24px;
+}

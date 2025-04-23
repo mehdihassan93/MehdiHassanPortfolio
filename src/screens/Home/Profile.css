@@ -1,0 +1,138 @@
+.profile-container {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  background-color: #1f2235;
+  padding-top: 80px;
+}
+
+.profile-parent {
+  max-width: 1200px;
+  width: 90%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.profile-details {
+  flex: 1;
+  color: white;
+  padding: 20px;
+  animation: fadeInLeft 1s ease;
+}
+
+.name-text {
+  font-size: 48px;
+  font-family: "Poppins ExtraBold";
+  color: white;
+  margin-bottom: 20px;
+}
+
+.intro-text {
+  font-size: 20px;
+  font-weight: 500;
+  color: white;
+}
+
+.highlighted-text {
+  color: #ff5823;
+}
+
+.role-text {
+  font-size: 28px;
+  margin-top: 10px;
+  font-style: italic;
+  color: #ffffff;
+}
+
+.tagline {
+  display: block;
+  margin: 15px 0 25px 0;
+  font-size: 16px;
+  color: #c5c5c5;
+}
+
+.social-icons {
+  margin-bottom: 15px;
+}
+
+.social-icons a {
+  color: white;
+  font-size: 20px;
+  margin-right: 14px;
+  transition: transform 0.3s;
+}
+
+.social-icons a:hover {
+  transform: scale(1.2);
+  color: #ff5823;
+}
+
+.profile-buttons .btn {
+  margin-right: 20px;
+  padding: 10px 24px;
+  font-size: 16px;
+  border-radius: 50px;
+  transition: 0.3s ease;
+}
+
+.primary-btn {
+  background: transparent;
+  color: white;
+  border: 2px solid #ff5823;
+}
+
+.primary-btn:hover {
+  background-color: #ff5823;
+  color: white;
+}
+
+.highlighted-btn {
+  background-color: #ff5823;
+  color: white;
+  border: none;
+}
+
+.highlighted-btn:hover {
+  background-color: #e74e1d;
+}
+
+.profile-picture {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile-image {
+  width: 320px;
+  height: 320px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 5px solid #ff5823;
+  box-shadow: 0 0 30px #ff58233f;
+  transition: transform 0.3s ease;
+}
+
+.profile-image:hover {
+  transform: scale(1.05);
+}
+
+/* Responsive */
+@media only screen and (max-width: 768px) {
+  .profile-parent {
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+
+  .profile-buttons {
+    justify-content: center;
+  }
+
+  .profile-image {
+    margin-top: 30px;
+  }
+}

@@ -1,0 +1,124 @@
+.contact-container {
+  padding: 80px 20px;
+  background-color: #1f2235;
+  color: #fff;
+  text-align: center;
+}
+
+.section-title {
+  font-size: 32px;
+  margin-bottom: 20px;
+  color: #ff5823;
+  font-family: "Poppins Bold";
+}
+
+.contact-box {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  background-color: #2a2e45;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 0 20px rgba(255, 88, 35, 0.3);
+  padding: 40px;
+}
+
+.left-side {
+  flex: 1;
+  min-width: 300px;
+  background-color: #1f2235;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.left-side h2 {
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+
+.social-icons {
+  display: flex;
+  gap: 15px;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.social-icons a i {
+  color: #fff;
+  transition: transform 0.2s ease;
+  cursor: pointer;
+}
+
+.social-icons a i:hover {
+  transform: scale(1.2);
+  color: #ff5823;
+}
+
+.mail-bg {
+  width: 100%;
+  max-width: 350px;
+  margin-top: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(255, 88, 35, 0.4);
+}
+
+.right-side {
+  flex: 1;
+  min-width: 300px;
+  background-color: #fdfdfd;
+  padding: 30px;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.right-side input,
+.right-side textarea {
+  width: 100%;
+  margin-bottom: 15px;
+  padding: 12px 15px;
+  font-size: 16px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-family: "Poppins Regular";
+  background-color: #f9f9f9;
+}
+
+.right-side textarea {
+  min-height: 120px;
+  resize: vertical;
+}
+
+.send-button {
+  background-color: #ff5823;
+  color: white;
+  border: none;
+  padding: 12px 25px;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  font-family: "Poppins Bold";
+  transition: 0.3s ease;
+}
+
+.send-button:hover {
+  background-color: #e0451a;
+}
+
+/* 📱 Mobile Responsive */
+@media screen and (max-width: 768px) {
+  .contact-box {
+    flex-direction: column;
+  }
+
+  .left-side,
+  .right-side {
+    padding: 20px;
+  }
+}
